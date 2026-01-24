@@ -2,46 +2,75 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>个人主页 | 数字媒体技术</title>
-
-  <!-- 引入样式文件 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李剑的个人主页</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- 顶部 -->
+  
+  <!-- 顶部 header -->
   <header class="header">
-    <img src="images/avatar.jpg" alt="我的头像" class="avatar"> 
-    <h1>李剑</h1>
-    <p>数字媒体技术专业 · 应届毕业生</p>
+    <img src="images/avatar.jpg" alt="我的头像" class="avatar">
+    <div class="header-text">
+      <h1>李剑</h1>
+      <p>数字媒体技术专业 · 应届毕业生</p>
+    </div>
   </header>
 
   <!-- 关于我 -->
-  <section class="section">
+  <section class="about">
     <h2>关于我</h2>
     <p>
-      我是一名数字媒体技术专业的大四学生，
-      掌握基础编程与 Web 前端开发，正在构建个人作品集网站。
+      我是一名数字媒体技术专业的大四学生，掌握 HTML、CSS、JavaScript 基础前端开发、视频拍摄剪辑、视频后期制作等技能，热爱数字媒体创作和网页开发。
     </p>
   </section>
 
-  <!-- 技能 -->
-  <section class="section">
-    <h2>技能</h2>
+  <!-- 教育经历 -->
+  <section class="education">
+    <h2>教育经历</h2>
     <ul>
-      <li>HTML / CSS / JavaScript</li>
-      <li>基础前端开发</li>
-      <li>拍摄剪辑</li>
+      <li>2022-2026 数字媒体技术专业, 四川工商学院</li>
     </ul>
   </section>
 
-  <!-- 项目 -->
-  <section class="section">
+  <!-- 技能 -->
+  <section class="skills">
+    <h2>技能</h2>
+    <ul>
+      <li>HTML / CSS / JavaScript</li>
+      <li>视频拍摄剪辑</li>
+      <li>Web 前端开发</li>
+      <li>3D建模</li>
+      <li>二维动画制作</li>
+    </ul>
+  </section>
+
+  <!-- 项目经历 -->
+  <section class="projects">
     <h2>项目经历</h2>
-    <div class="project">
-      <h3>个人网站（本项目）</h3>
-      <p>使用 HTML + CSS 搭建的个人展示网站，并部署到 GitHub Pages。</p>
+    
+    <div class="project-card">
+      <img src="images/project1.png" alt="项目1">
+      <h3>个人网站</h3>
+      <p>使用 HTML + CSS + GitHub Pages 搭建个人主页，实现作品展示和在线简历功能。</p>
     </div>
+
+    <div class="project-card">
+      <img src="images/project2.png" alt="项目2">
+      <h3>数字媒体作品集</h3>
+      <p>完成视频剪辑和数字内容创作项目，展示多媒体交互效果和视觉设计能力。</p>
+    </div>
+
+  </section>
+
+  <!-- 联系方式 -->
+  <section class="contact">
+    <h2>联系方式</h2>
+    <ul>
+      <li>Email: 3272435518@qq.com</li>
+      <li>GitHub: <a href="https://github.com/Lijian-web666" target="_blank">Lijian-web666</a></li>
+      <li>抖音: <a href="#" target="_blank">阿剑在做信息流</a></li>
+    </ul>
   </section>
 
   <!-- 页脚 -->
@@ -49,7 +78,6 @@
     <p>© 2026 李剑</p>
   </footer>
 
-  <!-- 引入 JS -->
   <script src="script.js"></script>
 </body>
 </html>

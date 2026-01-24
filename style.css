@@ -1,29 +1,40 @@
-/* 全局样式 */
+/* 全局 */
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f5f5f5;
   color: #333;
+  line-height: 1.6;
 }
 
-/* 顶部 */
-.avatar {
+/* 顶部 header */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.header .avatar {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
+  margin-right: 20px;
 }
 
-.header {
-  background-color: #222;
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
+.header-text h1 {
+  margin: 0;
+  font-size: 28px;
 }
 
-/* 内容区块 */
-.section {
+.header-text p {
+  margin: 5px 0 0 0;
+}
+
+/* Section 通用样式 */
+section {
   background-color: #fff;
   margin: 20px;
   padding: 20px;
@@ -31,14 +42,33 @@ body {
 }
 
 /* 项目卡片 */
-.project {
+.project-card {
   border-left: 4px solid #222;
   padding-left: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+/* 链接样式 */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* 页脚 */
 .footer {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   color: #666;
 }
