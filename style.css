@@ -72,3 +72,41 @@ a:hover {
   padding: 15px;
   color: #666;
 }
+
+/* =========================
+   手机端适配
+   ========================= */
+@media (max-width: 768px) 
+{
+
+  /* 顶部 header 改为竖排 */
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header .avatar {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* 所有 section 边距缩小 */
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  /* 项目图片全宽 */
+  .project-card img {
+    max-width: 100%;
+  }
+
+  /* 标题字号略小 */
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
