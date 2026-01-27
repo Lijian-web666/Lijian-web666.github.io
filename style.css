@@ -178,3 +178,44 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.avatar-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 20px;
+}
+
+/* 背景装饰图 */
+.avatar-bg {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+/* 头像本体 */
+.avatar {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  /* 白色描边 */
+  border: 4px solid #fff;
+
+  /* 层级 */
+  z-index: 2;
+
+  /* 小动效 */
+  transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+}
