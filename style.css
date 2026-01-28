@@ -203,20 +203,12 @@ html {
 
 /* 头像本体 */
 .avatar {
-  position: relative;
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  object-fit: cover;
-
-  /* 白色描边 */
   border: 4px solid #fff;
-
-  /* 层级 */
-  z-index: 2;
-
-  /* 小动效 */
-  transition: transform 0.3s ease;
+  object-fit: cover;
+  margin-bottom: 16px;
 }
 
 .avatar:hover {
@@ -225,20 +217,17 @@ html {
 }
 .hero {
   position: relative;
-  padding: 60px 20px 40px;
+  padding: 80px 20px 60px;
   background: #222;
   overflow: hidden;
 }
 .hero-bg {
   position: absolute;
   inset: 0;
-
   width: 100%;
   height: 100%;
-
-  object-fit: fill;      /* ✅ 允许拉伸变形 */
+  object-fit: fill;     /* 允许拉伸 */
   opacity: 0.35;
-
   z-index: 0;
 }
 .hero-content {
@@ -246,4 +235,13 @@ html {
   z-index: 2;
   text-align: center;
   color: #fff;
+}
+.hero-name {
+  font-size: 28px;
+  margin: 10px 0 6px;
+}
+
+.hero-desc {
+  font-size: 14px;
+  opacity: 0.9;
 }
