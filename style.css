@@ -223,3 +223,21 @@ html {
   transform: scale(1.05);
 
 }
+.hero {
+  position: relative;
+  padding: 60px 20px 40px;
+  background: #222;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: fill;      /* ✅ 允许拉伸变形 */
+  opacity: 0.35;
+
+  z-index: 0;
+}
