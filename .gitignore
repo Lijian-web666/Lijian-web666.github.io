@@ -1,0 +1,15 @@
+# 项目内部记忆、临时文件（不上传到公开仓库）
+.workbuddy/
+
+# 系统与编辑器产生的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# 临时与打包产物
+*.log
+*.tmp
+*.zip

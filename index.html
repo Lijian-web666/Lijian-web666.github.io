@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#ffffff" />
+
+<!-- ============================================================
+     SEO / 分享信息
+     ============================================================ -->
+<title>阿剑 keeper · IP 操盘手 | 个人主页</title>
+<meta name="description" content="阿剑（keeper）的个人主页 —— IP 操盘手 / 新媒体运营，坐标成都。操盘全网累计百万粉丝 IP 矩阵，含账号运营、直播运营与短视频拍剪作品。" />
+<meta name="author" content="阿剑" />
+<meta name="keywords" content="阿剑, keeper, IP操盘手, 新媒体运营, 直播运营, 短视频, 成都" />
+<link rel="canonical" href="https://Lijian-web666.github.io/" />
+
+<!-- Open Graph：分享到社交平台时的预览卡片 -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="阿剑 keeper · 个人主页" />
+<meta property="og:url" content="https://Lijian-web666.github.io/" />
+<meta property="og:title" content="阿剑 keeper · IP 操盘手" />
+<meta property="og:description" content="操盘全网累计百万粉丝 IP 矩阵，账号运营 / 直播运营 / 短视频拍剪。坐标成都。" />
+<meta property="og:image" content="https://Lijian-web666.github.io/assets/img/avatar.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+<link rel="apple-touch-icon" href="assets/img/avatar.jpg" />
+
+<!-- 必须在样式表之前执行：避免刷新时主题闪烁，并标记 JS 可用 -->
+<script>
+(function () {
+  var el = document.documentElement;
+  el.classList.add('js');
+  try {
+    var saved = localStorage.getItem('resume-theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    el.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+  } catch (e) {
+    el.setAttribute('data-theme', 'light');
+  }
+})();
+</script>
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<!-- ============================================================
+     顶部导航
+     ============================================================ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top" aria-label="回到顶部">
+      <span class="brand__mark" aria-hidden="true">剑</span>
+      <span class="brand__text">
+        <strong>阿剑</strong>
+        <small>KEEPER</small>
+      </span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="主导航">
+      <a href="#about" class="nav__link">关于</a>
+      <a href="#skills" class="nav__link">技能</a>
+      <a href="#experience" class="nav__link">经历</a>
+      <a href="#works" class="nav__link">作品</a>
+      <a href="#contact" class="nav__link">联系</a>
+      <a class="btn btn--sm btn--primary nav__cta" href="#contact">联系我</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切换深浅色主题" title="切换深浅色主题">
+        <svg class="ico ico--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.9 1.9M16.7 16.7l1.9 1.9M18.6 5.4l-1.9 1.9M7.3 16.7l-1.9 1.9"/></svg>
+        <svg class="ico ico--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+      </button>
+      <button class="icon-btn nav__burger" id="navBurger" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav__progress" id="navProgress" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================
+       Hero：姓名 / 定位 / 一句话简介
+       ============================================================ -->
+  <section class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="blob blob--1"></span>
+      <span class="blob blob--2"></span>
+      <span class="grid-lines"></span>
+    </div>
+
+    <div class="wrap hero__inner">
+      <div class="hero__text reveal">
+        <p class="eyebrow">
+          <span class="dot-live" aria-hidden="true"></span>
+          2026 届应届 · 正在寻找 IP 运营机会
+        </p>
+
+        <h1 class="hero__name">阿剑</h1>
+
+        <p class="hero__role">
+          IP 操盘手 <span class="sep">/</span> 新媒体运营 <span class="sep">/</span> 成都
+        </p>
+
+        <p class="hero__intro">
+          数字媒体技术专业出身，操盘过累计百万粉丝的 IP 矩阵，也拍得动、剪得动。
+          ENFP，爱沟通、爱尝试，正在找下一个值得一起做起来的账号。
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#works">
+            查看作品
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="mailto:3272435518@qq.com">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+            发邮件聊聊
+          </a>
+        </div>
+
+        <ul class="hero__social" aria-label="联系方式">
+          <li><a href="mailto:3272435518@qq.com" aria-label="邮箱">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+            3272435518@qq.com</a></li>
+          <li>
+            <button class="linklike" type="button" data-copy="LJ18982975524" data-label="微信号已复制">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 3.5C5 3.5 2.5 5.9 2.5 9c0 1.8 1 3.4 2.6 4.4l-.7 2.3 2.5-1.3c.6.1 1.1.2 1.7.2h.5"/><path d="M21.5 14.4c0-2.7-2.4-4.9-5.3-4.9s-5.3 2.2-5.3 4.9 2.4 4.9 5.3 4.9c.5 0 1-.1 1.4-.2l2.1 1.1-.6-1.9a4.7 4.7 0 0 0 2.4-3.9Z"/></svg>
+              微信：LJ18982975524 <span class="copy-hint">点击复制</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero__media reveal" data-delay="120">
+        <div class="avatar-frame">
+          <img src="assets/img/avatar.jpg" alt="阿剑的照片" width="800" height="800" />
+          <span class="avatar-frame__ring" aria-hidden="true"></span>
+        </div>
+
+        <dl class="hero__stats">
+          <!-- ▼ 数字如有更新，改 data-to 与单位即可 -->
+          <div><dt>操盘 IP</dt><dd><span class="count" data-to="6">0</span><span class="unit">个</span></dd></div>
+          <div><dt>全网粉丝</dt><dd><span class="count" data-to="170">0</span><span class="unit">万+</span></dd></div>
+          <div><dt>爆款播放</dt><dd><span class="count" data-to="85">0</span><span class="unit">万+</span></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- 跑马灯：关键词滚动条 -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>抖音运营</span><span>快手运营</span><span>IP 打造</span><span>直播运营</span><span>短视频拍摄</span><span>后期剪辑</span><span>账号冷启动</span><span>数据复盘</span><span>本地生活</span><span>汽车行业</span>
+      <span>抖音运营</span><span>快手运营</span><span>IP 打造</span><span>直播运营</span><span>短视频拍摄</span><span>后期剪辑</span><span>账号冷启动</span><span>数据复盘</span><span>本地生活</span><span>汽车行业</span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       关于我
+       ============================================================ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="sec-kicker">01 — 关于</p>
+        <h2 class="sec-title">关于我</h2>
+      </header>
+
+      <div class="about">
+        <div class="about__main reveal">
+          <p class="lead">
+            我是阿剑，一个还在摸索、但一直在线的年轻人。
+          </p>
+          <p>
+            数字媒体技术专业出身，操盘过餐饮、大健康、心理疗愈、汽车等行业的 6 个 IP，
+            也扛过摄像机、蹲过剪辑台。ENFP 的性格让我天然适合做内容和运营——先理解人，再理解流量。
+          </p>
+          <p>
+            比起等着被安排，我更喜欢主动去试。跟朋友一起拍片、起号、复盘，是我觉得最有意思的事。
+            如果你也在找一个肯学、肯跑、肯复盘的运营伙伴，欢迎<a href="#contact">和我聊聊</a>。
+          </p>
+        </div>
+
+        <aside class="about__side reveal" data-delay="100">
+          <h3 class="side-title">基本信息</h3>
+          <ul class="facts">
+            <li><span class="facts__k">所在城市</span><span class="facts__v">四川 · 成都</span></li>
+            <li><span class="facts__k">当前状态</span><span class="facts__v"><em class="tag tag--live">2026 届应届 · 求职中</em></span></li>
+            <li><span class="facts__k">求职意向</span><span class="facts__v">IP 操盘手 / 新媒体运营</span></li>
+            <li><span class="facts__k">性格</span><span class="facts__v">ENFP · 爱沟通爱尝试</span></li>
+            <li><span class="facts__k">熟悉行业</span><span class="facts__v">餐饮 · 大健康 · 心理疗愈 · 汽车</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       技能栈
+       ============================================================ -->
+  <section class="section section--soft" id="skills">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="sec-kicker">02 — 技能</p>
+        <h2 class="sec-title">技能栈</h2>
+        <p class="sec-desc">从起号到拍剪都能自己跑通，不是只会写方案的运营。</p>
+      </header>
+
+      <div class="skill-rows">
+        <!-- ▼ 替换：技能分类与条目，直接增删 <li> 即可 -->
+        <article class="skill-row reveal">
+          <h3 class="skill-row__title">新媒体运营</h3>
+          <ul class="tags">
+            <li class="tag">账号矩阵搭建</li><li class="tag">选题策划</li><li class="tag">内容排期</li><li class="tag">数据复盘</li><li class="tag">粉丝运营</li><li class="tag">平台规则与算法</li>
+          </ul>
+        </article>
+
+        <article class="skill-row reveal" data-delay="60">
+          <h3 class="skill-row__title">电商直播运营</h3>
+          <ul class="tags">
+            <li class="tag">直播间脚本</li><li class="tag">货品排期</li><li class="tag">互动控场</li><li class="tag">投流盯盘</li><li class="tag">转化复盘</li>
+          </ul>
+        </article>
+
+        <article class="skill-row reveal" data-delay="120">
+          <h3 class="skill-row__title">IP 打造</h3>
+          <ul class="tags">
+            <li class="tag">人设定位</li><li class="tag">账号冷启动</li><li class="tag">内容策略</li><li class="tag">爆款拆解</li><li class="tag">商业变现</li>
+          </ul>
+        </article>
+
+        <article class="skill-row reveal" data-delay="180">
+          <h3 class="skill-row__title">摄影摄像</h3>
+          <ul class="tags">
+            <li class="tag">运镜与分镜</li><li class="tag">布光</li><li class="tag">产品静物</li><li class="tag">人物出镜指导</li><li class="tag">宣传片拍摄</li>
+          </ul>
+        </article>
+
+        <article class="skill-row reveal" data-delay="240">
+          <h3 class="skill-row__title">后期剪辑</h3>
+          <ul class="tags">
+            <li class="tag">剪映专业版</li><li class="tag">Premiere Pro</li><li class="tag">After Effects</li><li class="tag">Photoshop</li><li class="tag">卡点节奏</li><li class="tag">字幕包装</li><li class="tag">宣传片剪辑</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       工作与教育经历
+       ============================================================ -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="sec-kicker">03 — 经历</p>
+        <h2 class="sec-title">工作与教育经历</h2>
+      </header>
+
+      <div class="exp-layout">
+        <div class="exp-col">
+          <h3 class="col-title reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="7" width="19" height="13" rx="2"/><path d="M8.5 7V5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v2M2.5 12.5h19"/></svg>
+            工作经历
+          </h3>
+
+          <ol class="timeline">
+            <!-- ▼ 替换：工作经历条目（按时间倒序） -->
+            <li class="tl-item reveal">
+              <span class="tl-dot" aria-hidden="true"></span>
+              <div class="tl-body">
+                <p class="tl-when">2026.05 — 2026.10 · 成都</p>
+                <h4 class="tl-where">微盟云<span class="tl-sep">·</span>代运营视频拍剪</h4>
+                <ul class="tl-points">
+                  <li>同期并行负责 7 个商家的视频拍摄与剪辑，独立完成从脚本、拍摄到成片交付的全流程。</li>
+                  <li>内容覆盖电商产品宣发、门店宣传与投流素材，帮助商家拿到实际转化结果。</li>
+                  <li>其中大健康类目商家线下核销金额收益翻 3 倍。</li>
+                </ul>
+                <ul class="tags">
+                  <li class="tag">代运营</li><li class="tag">产品拍剪</li><li class="tag">投流素材</li><li class="tag">转化交付</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="tl-item reveal">
+              <span class="tl-dot" aria-hidden="true"></span>
+              <div class="tl-body">
+                <p class="tl-when">2025.12 — 2026.03 · 成都</p>
+                <h4 class="tl-where">同展集团<span class="tl-sep">·</span>IP 账号运营</h4>
+                <ul class="tl-points">
+                  <li>主导董事长 IP「进哥的新能源汽车超市」内容运营，抖音粉丝 71.1 万、获赞 27 万。</li>
+                  <li>参与旗下说车达人 IP「张斌爱说车」运营，粉丝 39.9 万。</li>
+                  <li>负责门店号内容与投放素材制作，单条爆款播放 85.1 万。</li>
+                  <li>帮助公司新项目平稳落地，客源线索获取量翻 2 倍。</li>
+                </ul>
+                <ul class="tags">
+                  <li class="tag">IP 打造</li><li class="tag">内容运营</li><li class="tag">抖音</li><li class="tag">线索增长</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="tl-item reveal">
+              <span class="tl-dot" aria-hidden="true"></span>
+              <div class="tl-body">
+                <p class="tl-when">2025.06 — 2025.08</p>
+                <h4 class="tl-where">郑州雅咖教育科技<span class="tl-sep">·</span>直播运营实习生</h4>
+                <ul class="tl-points">
+                  <li>负责抖音企业号直播间投流盯盘，实时跟踪广告消耗、场观与线索转化，动态调整投放节奏。</li>
+                  <li>负责直播间客资留存，对留资线索及时跟进承接；制作直播间贴片等配套物料。</li>
+                  <li>单场直播累计观看 8.9 万、留资线索 54 条，付费流量占比 94.4%。</li>
+                </ul>
+                <ul class="tags">
+                  <li class="tag">直播投流</li><li class="tag">盯盘</li><li class="tag">客资留存</li><li class="tag">贴片制作</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="exp-col">
+          <h3 class="col-title reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.5 9.5 5L12 13.5l-9.5-5z"/><path d="M6.5 11v5.2c0 1.6 2.5 2.8 5.5 2.8s5.5-1.2 5.5-2.8V11"/></svg>
+            教育经历
+          </h3>
+
+          <ol class="timeline timeline--edu">
+            <!-- ▼ 替换：教育经历条目 -->
+            <li class="tl-item reveal">
+              <span class="tl-dot" aria-hidden="true"></span>
+              <div class="tl-body">
+                <p class="tl-when">2022.09 — 2026.06</p>
+                <h4 class="tl-where">四川工商学院<span class="tl-sep">·</span>数字媒体技术 · 全日制本科</h4>
+                <ul class="tl-points">
+                  <li>2026 届本科应届毕业生，专业方向覆盖拍摄、剪辑与新媒体内容制作。</li>
+                </ul>
+                <ul class="tags">
+                  <li class="tag">数字媒体技术</li><li class="tag">全日制本科</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+
+          <aside class="about__side intent reveal">
+            <h3 class="side-title">求职意向</h3>
+            <ul class="facts">
+              <li><span class="facts__k">意向岗位</span><span class="facts__v">IP 操盘手 / 新媒体运营</span></li>
+              <li><span class="facts__k">意向城市</span><span class="facts__v">成都（可远程）</span></li>
+              <li><span class="facts__k">到岗时间</span><span class="facts__v">随时</span></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       作品集
+       ============================================================ -->
+  <section class="section section--soft" id="works">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="sec-kicker">04 — 作品</p>
+        <h2 class="sec-title">作品集</h2>
+        <p class="sec-desc">账号运营 / 直播投流 / 拍摄剪辑三块——数据截自账号与投放后台，画面截自成片。</p>
+      </header>
+
+      <div class="work-group">
+        <h3 class="work-group__title">IP 账号运营</h3>
+        <div class="works" id="worksGrid">
+
+        <!-- ▼ 作品一：董事长 IP -->
+        <article class="work reveal">
+          <a class="work__cover cover cover--shot" href="https://v.douyin.com/vhE6ZO4zGqg/" target="_blank" rel="noopener" aria-label="在新窗口打开抖音账号「进哥的新能源汽车超市」">
+            <img src="assets/img/works/work-jinge.jpg" alt="抖音账号「进哥的新能源汽车超市」主页截图" loading="lazy" width="720" height="960" />
+          </a>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--code">IP 账号运营</span>
+              <span class="work__year">抖音 · 在营</span>
+            </div>
+            <h3 class="work__title"><a href="https://v.douyin.com/vhE6ZO4zGqg/" target="_blank" rel="noopener">进哥的新能源汽车超市</a></h3>
+            <p class="work__desc">
+              同展集团董事长 IP。围绕新能源与二手车的选购场景持续输出内容，用真实门店场景建立信任，成为线上获客的主要入口。
+            </p>
+            <dl class="work__stats">
+              <div><dt>粉丝</dt><dd>71.1<em>万</em></dd></div>
+              <div><dt>获赞</dt><dd>27.0<em>万</em></dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">董事长 IP</li><li class="tag">汽车行业</li><li class="tag">抖音</li>
+            </ul>
+            <p class="work__links">
+              <a href="https://v.douyin.com/vhE6ZO4zGqg/" target="_blank" rel="noopener">查看账号 <span aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </article>
+
+        <!-- ▼ 作品二：说车达人 IP -->
+        <article class="work reveal" data-delay="80">
+          <a class="work__cover cover cover--shot" href="https://v.douyin.com/DhykC-HIwoI/" target="_blank" rel="noopener" aria-label="在新窗口打开抖音账号「张斌爱说车」">
+            <img src="assets/img/works/work-zhangbin.jpg" alt="抖音账号「张斌爱说车」主页截图" loading="lazy" width="720" height="960" />
+          </a>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--code">IP 账号运营</span>
+              <span class="work__year">抖音 · 在营</span>
+            </div>
+            <h3 class="work__title"><a href="https://v.douyin.com/DhykC-HIwoI/" target="_blank" rel="noopener">张斌爱说车</a></h3>
+            <p class="work__desc">
+              旗下说车达人 IP。以「我是主播也是老板」的人设切入，主打一口价与透明报价，用高频口播内容持续拉动到店转化。
+            </p>
+            <dl class="work__stats">
+              <div><dt>粉丝</dt><dd>39.9<em>万</em></dd></div>
+              <div><dt>获赞</dt><dd>15.2<em>万</em></dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">达人 IP</li><li class="tag">说车</li><li class="tag">抖音</li>
+            </ul>
+            <p class="work__links">
+              <a href="https://v.douyin.com/DhykC-HIwoI/" target="_blank" rel="noopener">查看账号 <span aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </article>
+
+        <!-- ▼ 作品三：门店号 -->
+        <article class="work reveal" data-delay="160">
+          <div class="work__cover cover cover--shot">
+            <img src="assets/img/works/work-tuhu.jpg" alt="快手账号「途虎官方旗舰店」主页截图" loading="lazy" width="720" height="960" />
+          </div>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--code">门店号运营</span>
+              <span class="work__year">快手 · 在营</span>
+            </div>
+            <h3 class="work__title">途虎官方旗舰店（门店号）</h3>
+            <p class="work__desc">
+              门店号内容运营与投放素材制作。围绕养车场景做系列化内容，跑出多条本地转化爆款，单条最高播放 85.1 万。
+            </p>
+            <dl class="work__stats">
+              <div><dt>粉丝</dt><dd>62.4<em>万</em></dd></div>
+              <div><dt>获赞</dt><dd>288.9<em>万</em></dd></div>
+              <div><dt>爆款播放</dt><dd>85.1<em>万</em></dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">门店号</li><li class="tag">本地生活</li><li class="tag">快手</li>
+            </ul>
+          </div>
+        </article>
+
+        </div>
+      </div>
+
+      <div class="work-group">
+        <h3 class="work-group__title">直播运营与投流</h3>
+        <div class="works">
+
+        <!-- ▼ 作品六：直播投流盯盘 -->
+        <article class="work reveal">
+          <div class="work__cover cover cover--frame">
+            <img src="assets/img/works/work-live.jpg" alt="抖音企业号直播投流盯盘后台实拍（敏感信息已脱敏）" loading="lazy" width="900" height="675" />
+          </div>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--code">直播投流</span>
+              <span class="work__year">投放后台实拍 · 已脱敏</span>
+            </div>
+            <h3 class="work__title">教育行业直播 · 投流盯盘</h3>
+            <p class="work__desc">
+              实习期间负责抖音企业号直播间投流盯盘与客资承接：实时跟踪广告消耗、场观与线索转化，
+              对留资线索及时回访留存。图为单场直播的投放后台数据。
+            </p>
+            <dl class="work__stats">
+              <div><dt>单场消耗</dt><dd>7,922<em>元</em></dd></div>
+              <div><dt>累计观看</dt><dd>8.9<em>万</em></dd></div>
+              <div><dt>全场线索</dt><dd>54<em>条</em></dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">直播投流</li><li class="tag">盯盘优化</li><li class="tag">客资留存</li><li class="tag">贴片制作</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ▼ 作品七：汽车行业直播投流盯盘 -->
+        <article class="work reveal">
+          <div class="work__cover cover cover--frame">
+            <img src="assets/img/works/work-auto-live.jpg" alt="汽车行业直播间投流盯盘现场实拍（主播画面已模糊处理）" loading="lazy" width="900" height="675" />
+          </div>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--code">直播投流</span>
+              <span class="work__year">盯盘现场实拍 · 已脱敏</span>
+            </div>
+            <h3 class="work__title">汽车行业直播 · 投流盯盘与内容优化</h3>
+            <p class="work__desc">
+              负责汽车行业直播间投流盯盘与客资留存，实时跟进直播间承接转化。
+              同时基于巨量引擎的投放数据反馈——消耗、点击率、转化成本与素材表现，
+              反向制定并迭代投流视频内容，用数据驱动素材优化。
+            </p>
+            <dl class="work__stats">
+              <div><dt>累计观看</dt><dd>2.23<em>万+</em></dd></div>
+              <div><dt>进入直播间</dt><dd>12,278<em>人次</em></dd></div>
+              <div><dt>投放平台</dt><dd>巨量<em>引擎</em></dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">巨量引擎</li><li class="tag">投流盯盘</li><li class="tag">客资留存</li><li class="tag">素材迭代</li>
+            </ul>
+          </div>
+        </article>
+
+        </div>
+      </div>
+
+      <div class="work-group">
+        <h3 class="work-group__title">视频拍摄与后期</h3>
+        <div class="works works--video">
+
+        <!-- ▼ 作品四：产品拍剪 -->
+        <article class="work reveal">
+          <div class="work__cover cover cover--frame">
+            <img src="assets/img/works/work-youni.jpg" alt="悠尼洗地机产品宣发视频画面" loading="lazy" width="720" height="540" />
+          </div>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--writing">产品拍剪</span>
+              <span class="work__year">电商 · 宣发</span>
+            </div>
+            <h3 class="work__title">悠尼洗地机 · 产品宣发视频</h3>
+            <p class="work__desc">
+              独立完成电商产品宣发片全流程：脚本、布光、运镜与剪辑包装。围绕厨房重油污的真实使用场景展开，突出自动清洁与除菌卖点。
+            </p>
+            <dl class="work__stats">
+              <div><dt>成片</dt><dd>35<em>s</em></dd></div>
+              <div><dt>画幅</dt><dd>9:16</dd></div>
+              <div><dt>分工</dt><dd>拍摄·剪辑</dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">电商产品</li><li class="tag">竖版短视频</li><li class="tag">商业宣发</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ▼ 作品五：城市宣传片 -->
+        <article class="work reveal" data-delay="80">
+          <a class="work__cover cover cover--frame" href="https://www.bilibili.com/video/BV1as5169Eid/" target="_blank" rel="noopener" aria-label="在新窗口打开 B 站观看城市宣传片《绿脉穿城》">
+            <img src="assets/img/works/work-lvmai.jpg" alt="城市宣传片《绿脉穿城》画面" loading="lazy" width="900" height="675" />
+            <span class="cover__play" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </span>
+          </a>
+          <div class="work__body">
+            <div class="work__top">
+              <span class="type type--design">宣传片制作</span>
+              <span class="work__year">城市形象 · 独立完成</span>
+            </div>
+            <h3 class="work__title"><a href="https://www.bilibili.com/video/BV1as5169Eid/" target="_blank" rel="noopener">《绿脉穿城》城市宣传片</a></h3>
+            <p class="work__desc">
+              以成都绿道为线索的城市形象片。从创意策划、摄影摄像，到剪辑、调色与字幕包装，全流程由本人独立完成。
+            </p>
+            <dl class="work__stats">
+              <div><dt>成片</dt><dd>4'57"</dd></div>
+              <div><dt>规格</dt><dd>1080P</dd></div>
+              <div><dt>分工</dt><dd>导演·摄影·剪辑</dd></div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">宣传片</li><li class="tag">城市形象</li><li class="tag">全流程制作</li>
+            </ul>
+            <p class="work__links">
+              <a href="https://www.bilibili.com/video/BV1as5169Eid/" target="_blank" rel="noopener">B 站观看完整成片 <span aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       联系方式
+       ============================================================ -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="sec-kicker">05 — 联系</p>
+        <h2 class="sec-title">联系方式</h2>
+        <p class="sec-desc">无论是岗位机会、账号合作，还是想交流运营打法，都欢迎联系我，我会尽快回复。</p>
+      </header>
+
+      <div class="contact">
+        <!-- ▼ 替换：联系方式 -->
+        <article class="contact-card reveal">
+          <span class="contact-card__ico" aria-hidden="true">
+            <svg class="ico" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+          </span>
+          <h3>邮箱</h3>
+          <p class="contact-card__val">3272435518@qq.com</p>
+          <a class="btn btn--sm btn--ghost" href="mailto:3272435518@qq.com">发送邮件</a>
+        </article>
+
+        <article class="contact-card reveal" data-delay="80">
+          <span class="contact-card__ico" aria-hidden="true">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M8.5 3.5C5 3.5 2.5 5.9 2.5 9c0 1.8 1 3.4 2.6 4.4l-.7 2.3 2.5-1.3c.6.1 1.1.2 1.7.2h.5"/><path d="M21.5 14.4c0-2.7-2.4-4.9-5.3-4.9s-5.3 2.2-5.3 4.9 2.4 4.9 5.3 4.9c.5 0 1-.1 1.4-.2l2.1 1.1-.6-1.9a4.7 4.7 0 0 0 2.4-3.9Z"/></svg>
+          </span>
+          <h3>微信</h3>
+          <p class="contact-card__val">LJ18982975524</p>
+          <button class="btn btn--sm btn--ghost" type="button" data-copy="LJ18982975524" data-label="微信号已复制">复制微信号</button>
+        </article>
+
+        <article class="contact-card reveal" data-delay="160">
+          <span class="contact-card__ico" aria-hidden="true">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M12 2.6 20.5 7v10L12 21.4 3.5 17V7z"/><path d="M3.5 7 12 11.6 20.5 7M12 11.6V21.4"/></svg>
+          </span>
+          <h3>投递提示</h3>
+          <p class="contact-card__val">微信请备注来意，邮件请附上岗位或项目说明</p>
+          <button class="btn btn--sm btn--ghost" type="button" data-print>打印 / 存为 PDF</button>
+        </article>
+      </div>
+
+      <div class="cta-band reveal">
+        <div>
+          <h3>有合适的岗位或账号要一起做？</h3>
+          <p>把账号现状和目标发我一份，我会认真读完再回复。</p>
+        </div>
+        <a class="btn btn--primary" href="mailto:3272435518@qq.com">
+          发送邮件
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p class="footer__brand">
+      <span class="brand__mark brand__mark--sm" aria-hidden="true">剑</span>
+      阿剑 keeper · IP 操盘手
+    </p>
+    <nav class="footer__links" aria-label="页脚导航">
+      <a href="#about">关于</a><a href="#skills">技能</a><a href="#experience">经历</a><a href="#works">作品</a><a href="#contact">联系</a>
+    </nav>
+    <p class="footer__meta">© <span id="year">2026</span> 阿剑 · 保留所有权利</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" hidden>
+  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<!-- 复制成功提示 -->
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
